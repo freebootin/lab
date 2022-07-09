@@ -2,7 +2,7 @@
 
 This is gonna be an on going log cataloging my problems and fixes for using xorg on FreeBSD.
 
-## ThinkPad x230
+## ThinkPad t480
 
 1. Install `xorg`
 1. Install `drm-kmod`. Use binary, port fails to build.
