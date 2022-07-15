@@ -26,3 +26,7 @@ Steps to make this work (assuming using `bash` as a login shell):
 1. Restart `bash` and you should now have working colors for `ls`.
 
 I havn't tried it myself, but this should work for `zsh` also.
+
+## Time and NTPD
+
+When you install FreeBSD you can select and option to enable ntpd at boot.  This does not add time sync though.  You should check `/etc/rc.conf` for the line `ntpd_sync_on_start="YES"` and add it if it's not there.
