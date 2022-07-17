@@ -33,4 +33,4 @@ When you install FreeBSD you can select and option to enable ntpd at boot.  This
 
 ## Power Management
 
-This [https://vermaden.wordpress.com/2018/11/28/the-power-to-serve-freebsd-power-management/](site) has lots of information about power management on FreeBSD.
+This [site](https://vermaden.wordpress.com/2018/11/28/the-power-to-serve-freebsd-power-management/) has lots of information about power management on FreeBSD.
