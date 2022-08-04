@@ -27,6 +27,10 @@ Steps to make this work (assuming using `bash` as a login shell):
 
 I havn't tried it myself, but this should work for `zsh` also.
 
+Normally `less` prints escape sequences like `ESC[36m` raw on FreeBSD. You can fix this with the `-r` option. Alias `less` to `less -r`.
+
+For preprocessing, `lesspipe` is avalible for FreeBSD. While the package is called `lesspipe`, the actual executable is called `lesspipe.sh`, even though it contains a shebang line. You can use th regular Linux setup just use `lesspipe.sh` and change the absolute path values to BSD ones.
+
 ## Time and NTPD
 
 When you install FreeBSD you can select and option to enable ntpd at boot.  This does not add time sync though.  You should check `/etc/rc.conf` for the line `ntpd_sync_on_start="YES"` and add it if it's not there.
