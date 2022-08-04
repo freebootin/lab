@@ -34,3 +34,7 @@ For preprocessing, `lesspipe` is avalible for FreeBSD. While the package is call
 ## Time and NTPD
 
 When you install FreeBSD you can select and option to enable ntpd at boot.  This does not add time sync though.  You should check `/etc/rc.conf` for the line `ntpd_sync_on_start="YES"` and add it if it's not there.
+
+## Power Management
+
+This [site](https://vermaden.wordpress.com/2018/11/28/the-power-to-serve-freebsd-power-management/) has lots of information about power management on FreeBSD.
