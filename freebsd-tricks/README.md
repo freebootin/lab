@@ -42,7 +42,7 @@ This [site](https://vermaden.wordpress.com/2018/11/28/the-power-to-serve-freebsd
 ## WiFi Setup
 The wifi setup from the FreeBSD handbook doesn't tell you everything you need. I found this five year old forum [post](https://muc.lists.freebsd.questions.narkive.com/f06viB9L/iwm-drives-does-not-work-for-intel-wireless-ac-3165) that filled in the blanks for me.
 
-1. First the your networks SSID and password.
+1. First get your networks SSID and password.
 1. Identify your wifi driver using `sysctl net.wlan.devices`. If you get blank output then you need to find and install your wifi driver. 
 1. Add an entry for your wifi network to `/etc/wpa_supplicant.conf`, creating the file if it does not exist. The entry should look like:
 `network={
