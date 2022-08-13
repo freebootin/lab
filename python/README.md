@@ -13,3 +13,4 @@ Unless noted, these should all work cross platform (Linux/BSD/Windows/Mac).
 
 - `watchdog` for event monitoring.
 - `pynput` for reading/controlling the keyboard/mouse. 
+- `python-daemon` for creating daemons with python.
